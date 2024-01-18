@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="resources/Mrs-Logo-Navideno.jpeg" />
+    <title>MRs. Barber</title>
+    <link rel="stylesheet" href="resources/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div>
+            <h1>
+                <a href="">
+                    <img src="resources/Mrs-Logo-Navideno.jpeg" alt="MRs. BarbershopLogo">
+                </a>
+            </h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#servicios">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#ubicacion">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <a name="inicio" id="inicio"></a>
+        <!-- CAROUSEL -->
+        <section class="carousel">
+            <div id="main_carousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators/dots -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#main_carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#main_carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#main_carousel" data-bs-slide-to="2"></button>
+                </div>
+                <!-- The slideshow/carousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="resources/promocional1.jpeg" alt="Trabajo barbero" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/promocional2.jpeg" alt="Solicitud barbero" class="d-block">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="resources/Mrs-Logo-Navideno.jpeg" alt="Logo Barberia" class="d-block">
+                    </div>
+                </div>
+                <!-- Left and right controls/icons -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#main_carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#main_carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </section>
+        <!-- ARTICULOS -->
+        <section class="comunicados">
+            <div class="comunicado">
+                <h2 class="titulos">Agenda tu cita con tiempo</h2>
+                <img src="resources/promocional1.jpeg" alt="Comunicado 1" class="imgComunicado">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo dignissimos maiores, totam
+                    ipsam quam reiciendis deserunt quis et magni optio assumenda reprehenderit dolor sapiente magnam
+                    dolorem
+                    in iure quia!
+                </p>
+            </div>
+            <div class="comunicado">
+                <h2 class="titulos">Se busca barbero</h2>
+                <img src="resources/promocional2.jpeg" alt="Comunicado 2" class="imgComunicado">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo dignissimos maiores, totam
+                    ipsam
+                    quam reiciendis deserunt quis et magni optio assumenda reprehenderit dolor sapiente magnam dolorem
+                    in
+                    iure quia!
+                </p>
+            </div>
+            <div class="comunicado">
+                <h2 class="titulos">Nuevo Estilo</h2>
+                <img src="resources/Estilo1.jpeg" alt="Comunicado 3" class="imgComunicado">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo dignissimos maiores, totam
+                    ipsam quam reiciendis deserunt quis et magni optio assumenda reprehenderit dolor sapiente magnam
+                    dolorem
+                    in iure quia!
+                </p>
+            </div>
+            <div class="comunicado">
+                <h2 class="titulos">Feliz Cumpleaños Mario</h2>
+                <img src="resources/FCMario.jpeg" alt="Comunicado 3" class="imgComunicado">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat illo dignissimos maiores, totam
+                    ipsam quam reiciendis deserunt quis et magni optio assumenda reprehenderit dolor sapiente magnam
+                    dolorem in iure quia!
+                </p>
+            </div>
+        </section>
+        <!-- Servicios -->
+        <section class="servicios">
+            <h2 class="tituloPrincipal span-col5"><a name="servicios"></a>Servicios</h2>
+            <div class="servicio">
+                <img src="resources/SCorteAdulto.jpeg" class="servicioImg" alt="CortePeloAdulto">
+                <h3 class="titulos">Corte Cabello Adulto</h3>
+            </div>
+            <div class="servicio">
+                <img src="resources/SCorteNiño.jpeg" class="servicioImg" alt="CortePeloNiño">
+                <h3 class="titulos">Corte Cabello Niño</h3>
+            </div>
+            <div class="servicio">
+                <img src="resources/SCorteBarba.jpeg" class="servicioImg" alt="CorteBarbaBigote">
+                <h3 class="titulos">Corte Barba y bigote</h3>
+            </div>
+            <div class="servicio">
+                <img src="resources/SRazuradoBarba.jpeg" class="servicioImg" alt="RazuradoBarbaBigote">
+                <h3 class="titulos">Razurado Barba y bigote</h3>
+            </div>
+            <div class="servicio">
+                <img src="resources/SPeinado.jpeg" class="servicioImg" alt="Peinado">
+                <h3 class="titulos">Peinado</h3>
+            </div>
+        </section>
+        <!-- Ubicacion -->
+        <section class="ubicacion" id="ubicacion">
+            <a name="ubicacion"></a>
+            <h2 class="tituloPrincipal span-col">Nuestras Ubicaciónes</h2>
+            <div class="mapas">
+                <h3 class="titulos">Sucursal Altamirano</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim ipsa nihil illo nesciunt! Odio
+                    quisquam cumque nobis exercitationem saepe officia temporibus perferendis, quibusdam, reiciendis
+                    praesentium, corporis est atque unde.</p>
+                <div class="mapa-contenido">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.9797125779066!2d-104.88338452222011!3d21.51922749221012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737a91c7d59a9%3A0x889e57d9c3907449!2sBarberia%20M%C3%8DSTER&#39;S%20Barbershop!5e0!3m2!1ses-419!2smx!4v1701815570176!5m2!1ses-419!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            <div class="mapas">
+                <h3 class="titulos">Sucursal Av. México</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim ipsa nihil illo nesciunt! Odio
+                    quisquam cumque nobis exercitationem saepe officia temporibus perferendis, quibusdam, reiciendis
+                    praesentium, corporis est atque unde.</p>
+                <div class="mapa-contenido">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d997.94946508517!2d-104.88446051552502!3d21.52363124774043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842737b814973419%3A0xf57a1e45c17b2cc7!2sM%C3%ADster&#39;s%20Barbershop!5e0!3m2!1ses-419!2smx!4v1701815738999!5m2!1ses-419!2smx"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- Contacto -->
+        <h2 class="tituloPrincipal">Agenda tu cita</h2>
+        <section class="contacto" id="contacto">
+            <form>
+                <label for="nombreApellido" class="titulos">Nombre y Apellido</label>
+                <input type="text" name="nombreApellido" id="nombreApellido" class="input-padron" required>
+                <label for="eMail" class="titulos">Correo electrónico</label>
+                <input type="email" name="eMail" id="eMail" class="input-padron" required
+                    placeholder="email@dominio.com">
+                <label for="telefono" class="titulos">Teléfono</label>
+                <input type="tel" name="telefono" id="telefono" class="input-padron" required
+                    placeholder="(XX) XXXX XXXX">
+                <fieldset>
+                    <legend class="titulos">Servicio</legend>
+                    <label for="radCa" class="texto"><input type="radio" value="Corte_adulto" name="contacto" id="radCa" checked> Corte Adulto </label>
+                    <label for="radCn" class="texto"><input type="radio" value="Corte_niño" name="contacto" id="radCn"> Corte Niño </label>
+                    <label for="radCbb" class="texto"><input type="radio" value="Corte_barba" name="contacto" id="radCbb"> Corte de Barba y bigote </label>
+                    <label for="radRbb" class="texto"><input type="radio" value="Razurado_barba" name="contacto" id="radRbb"> Razurado de Barba y bigote </label>
+                    <label for="radP" class="texto"><input type="radio" value="Peinado" name="contacto" id="radP"> Peinado </label>
+                </fieldset>
+                <label for="sucursal" class="titulos">Seleciona sucursal</label>
+                <select name="sucursal" id="sucursal">
+                    <option value="0">Selecciona la sucursal</option>
+                    <option value="1">Sucursal Altamirano</option>
+                    <option value="2">Sucursal Av. México</option>
+                </select>
+                <label for="diacita" class="titulos">Día de la cita</label>
+                <select name="diacita" id="diacita">
+                    <option value=0>Selecciona el día de tu preferencia</option>
+                </select>
+                <label for="horacita" class="titulos">Hora de la cita</label>
+                <select name="horacita" id="horacita">
+                    <option value=0>Selecciona la hora de tu preferencia</option>
+                </select>
+                <input type="submit" value="Agendar cita" class="enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright David Samaniego 2023</p>
+    </footer>
+</body>
+</html>

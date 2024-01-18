@@ -1,0 +1,150 @@
+body {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: inline-block;
+}
+p{
+    color: white;
+}
+header {
+    background-color: #000000;
+    border-bottom: solid 1px white;
+    height: 12.9%;
+    padding: 20px 0;
+    width: 100%;
+    position: fixed;
+    display: inline-block;
+    top: 0px;
+    z-index: 4;
+}
+header div{
+    height: 100%;
+    margin: 0;
+    position: relative;
+    width: 100%;
+}
+h1{
+    height: 90px;
+    width: 90px;
+    margin-bottom: 0px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    position: absolute;
+    right: 10px;
+    top:25%;
+}
+nav li{
+    border: solid 1px white;
+    display: inline-flex;
+    height: 44px;
+    justify-content: center;
+    margin: 0px 10px;
+    padding: 2px;
+    width: 150px
+}
+nav a{
+    align-self: center;
+    color: #d3d3d3;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: #c78c19;
+}
+main {
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 6.2%;
+    padding: 0 1%;
+}
+.carousel{
+    height: auto;
+    width: 54%;
+    margin: 0 auto;
+    padding: 2% 0 1% 0;
+}
+.comunicados{
+    display: grid;
+    height: 600px;
+    width: 100%;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 50% 50%;
+    gap: 1%;
+    margin: 1% 0;
+}
+.imgComunicado{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 20px 20px 0;
+    border: solid 1px white;
+    
+}
+.servicios{
+    width: 100%;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    grid-template-rows: 40px 200px;
+    gap: 1px;
+}
+.servicioImg{
+    width: 90%;
+}
+.span-col5{
+    grid-column: auto / span 5;
+}
+.ubicacion{
+    display: grid;
+    height: auto;
+    width: 100%;
+    grid-template-rows: auto;
+    grid-template-columns: 49% 49%;
+    gap: 1%;
+    margin-bottom: 1%;
+}
+.span-col{
+    grid-column: auto / span 2;
+}
+.input-padron{
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+footer {
+    background-color: #000000;
+    border-top: solid 1px white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.tituloPrincipal {
+    clear: left;
+    font-size: 2em;
+    margin: 0 0 1em;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+.titulos{
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+.texto{
+    color: white;
+}
+#inicio{
+    position: absolute;
+    top: 0;
+}
